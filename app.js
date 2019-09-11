@@ -16,6 +16,7 @@ mongoose
   .then(() => console.log("MongoDB Connected.."))
   .catch(err => console.log(err));
 
+// Comment 1
 app.use("/api/items", require("./routes/api/items"));
 
 const PORT = 5000;
